@@ -1,3 +1,32 @@
 body {
     font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+
+img {
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
 }
