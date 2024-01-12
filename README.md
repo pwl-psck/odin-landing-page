@@ -1,4 +1,5 @@
 # odin-landing-page
-One simple page exercise. 
+Landing page exercise from The Odim Project.
 
-A simple landing page created as The Odin Project assignment. Not responsive.
+Landing page created as The Odin Project assignment. Not responsive.
+Min. screen width 1486px.
