@@ -7,7 +7,8 @@ body {
 
 }
 
-.header{
+.header,
+.top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,18 +16,42 @@ body {
     background-color: #1F2937;
 }
 
+.top {
+    padding: 50px 300px;
+    gap: 50px;
+}
+
+.top-left > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.top-left > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header-logo {
     width: 100px;
     height: auto;
 }
 
-img {
+button {
+    background-color: blue;
     color: white;
-    
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+img {
+    color: #E5E7EB;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
     margin-left: 30px;
 }
